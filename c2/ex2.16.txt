@@ -1,0 +1,11 @@
+Which, if any, of the following assignments are invalid? If they are valid, explain what they do.
+Click here to view code image
+int i = 0, &r1 = i; double d = 0, &r2 = d;
+(a) r2 = 3.14159;
+Store a floating point value in d
+(b) r2 = r1;
+Tries to store what is the int at 1 into the double at d.
+(c) i = r2;
+Tries to store what is in d to i. Truncation occurs.
+(d) r1 = d;
+Tries to store what is in d to i. Truncation occurs.

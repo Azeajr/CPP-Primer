@@ -1,0 +1,7 @@
+Determine the types and values of each of the following variables.
+(a) int* ip, &r = ip;
+ip is an int pointer, r is int reference that refers to ip
+(b) int i, *ip = 0;
+i is int variable, ip is int pointer that is set to point to NULL(0)
+(c) int* ip, ip2;
+ip is int pointer and ip2 is int variable

@@ -1,0 +1,13 @@
+What values do these literals represent? What type does each have?
+(a) "Who goes with F\145rgus?\012"
+String literal of type char array
+
+(b) 3.14e1L
+scientific notation of type long double
+extended-precision floating point literal, type is a long double
+
+(c) 1024f
+single-precision floating point literal, type is a float
+
+(d) 3.14L
+extended-precision floating point literal, type is a long double

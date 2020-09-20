@@ -1,0 +1,9 @@
+Explain each of the following definitions. Indicate whether any are illegal and, if so, why.
+int i = 0;
+
+(a) double* dp = &i;
+Illegal, because it is assigning the address of an int to a pointer of type double.
+(b) int *ip = i;
+Legal, but it might not be what the user intended.  The pointer has been given the address 0x00000000 which amounts to a null pointer.  The user most likely wanted ip to point to the address of i, &i.
+(c) int *p = &i;
+Legal and logical.

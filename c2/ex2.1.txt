@@ -1,0 +1,8 @@
+What are the differences between int, long, long long, and short? Between an unsigned and a signed type? Between a float and a double?
+int         == minimum size is 16 bits
+long        == minimum size is 32 bits
+long long   == minimum size is 64 bits
+short       == minimum size is 16 bits
+
+Unsigned values use all the bits to represent numbers so the an unsigned int may be as large as 2^16.
+While signed values split the total range of possible values.  So an 8-bit signed value would be able to hold values between -2^7 and 2^7.

@@ -1,0 +1,5 @@
+Explain the key differences between pointers and references.
+
+References serve as aliases to objects.  They are bonded at initialization to an object of the same type.  They cannot be reassigned.
+
+Pointers serve as containers for addresses.  The addresses contained must be of corresponding type.  The pointer may change what it is pointed to by adjusting the address it contains.  It therefore can point to multiple objects as the program executes.

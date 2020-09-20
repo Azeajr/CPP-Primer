@@ -1,0 +1,13 @@
+Explain the following definitions. For those that are illegal, explain what’s wrong and how to correct it.
+(a) std::cin >> int input_value;
+
+(b) int i = { 3.14 };
+Error, narrowing conversion required
+
+(c) double salary = wage = 9999.99;
+I believe this only works if wage was previously instantiated.
+One correction could be, double salary, wage = salary = 9999.99
+
+
+(d) int i = 3.14;
+This compiles and runs fine but data is lost due to truncation.

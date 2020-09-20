@@ -1,0 +1,5 @@
+What, if any, are the differences between the following
+definitions:
+int month = 9, day = 7;
+The following values will be read as octal values.
+int month = 09, day = 07;

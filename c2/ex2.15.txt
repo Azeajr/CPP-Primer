@@ -1,0 +1,9 @@
+Which of the following definitions, if any, are invalid? Why?
+(a) int ival = 1.01;
+valid, although truncation occurs
+(b) int &rval1 = 1.01;
+Invalid, references cannot be bound to literals
+(c) int &rval2 = ival;
+valid
+(d) int &rval3;
+invalid, references must be initialized

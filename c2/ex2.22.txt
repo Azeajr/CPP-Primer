@@ -1,0 +1,4 @@
+
+Assuming p is a pointer to int, explain the following code:
+if (p) // if the address stored in p is not NULL
+if (*p) // if the contents of the pointer p are not 0
