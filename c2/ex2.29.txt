@@ -1,0 +1,11 @@
+Using the variables in the previous exercise, which of the following assignments are legal? Explain why.
+
+(a) i = ic;
+Legal, an integer variable can take any integer value.
+(b) p1 = p3;
+Legal, the variable that p1 is pointing to is constant, the actual address stored inside p1 is editable.
+(c) p1 = &ic;
+Legal
+(d) p3 = &ic;
+(e) p2 = p1;
+(f) ic = *p3;

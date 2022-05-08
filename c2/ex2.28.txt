@@ -1,0 +1,15 @@
+Explain the following definitions.  Identify any that are illegal.
+a) int i, *const cp;
+i is an integer variable and cp is pointer to a constant integer.
+Not legal, cp needs to be initialized.
+b) int *p1, *const p2;
+p1 is pointer to an integer variable while p2 is pointer to a constant integer.
+Not legal, p2 needs to be initialized.
+c) const int ic, &r = ic;
+const integer variable ic and a constant reference to that constant.
+Not legal, ic is not initialized.
+d) const int *const p3;
+p3 is constant pointer which can point at integer constants.
+Needs to be initialized, but other than that this is legal.
+e) const *p1, *const p2;
+Illegal, no type is specified.

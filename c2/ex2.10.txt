@@ -12,6 +12,7 @@ int main()
 {
     /*
      * local_int and local_str will not be initialized
+     * Initial value will be undefined
      */
     int local_int;
     std::string local_str;

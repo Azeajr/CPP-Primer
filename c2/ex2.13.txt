@@ -1,5 +1,5 @@
 What is the value of j in the following program?
-j will equal 100 since the definition of j within the main function supersedes the global definition. 
+j will equal 100 since the definition of i within the main function supersedes the global definition. 
 int i = 42;
 int main()
 {

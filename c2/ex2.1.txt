@@ -6,3 +6,5 @@ short       == minimum size is 16 bits
 
 Unsigned values use all the bits to represent numbers so the an unsigned int may be as large as 2^16.
 While signed values split the total range of possible values.  So an 8-bit signed value would be able to hold values between -2^7 and 2^7.
+
+Float are single precision floating point with 6 significant digits. While double are double precision floating point with 10 significant digits.

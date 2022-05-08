@@ -1,0 +1,15 @@
+Which of the following initializations are legal? Explain why.
+a) int i = -1, &r = 0;
+Not legal, initializer must be an object
+b) int *const p2 = &i2;
+Legal
+c) const int i = -1, &r = 0;
+Legal since 0 is const
+d) const int *const p3 = &i2;
+Legal.
+e) const int *p1 = &i2;
+Legal.
+f) const int &const r2;
+'const' qualifier may not be applied to a reference and reference needs to be initialized
+g) const int i2 = i, &r = i;
+Legal
